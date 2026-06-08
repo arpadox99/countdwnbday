@@ -12,7 +12,7 @@ const canvasC = document.getElementById('c');
 // ======================================================
 
 const config = {
-  birthdate: 'Jun 8, 2026',
+  birthdate: 'Jun 16, 2026',
   name: 'DEA SAFANA'
 };
 
