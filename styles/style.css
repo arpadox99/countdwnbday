@@ -50,20 +50,21 @@ li span {
   z-index: 10;
 }
 .giftbox > div {
-  background: #F64747;
+  background: #f64747;
   position: absolute;
   box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.4);
 }
-.giftbox > div:after, .giftbox > div:before {
+.giftbox > div:after,
+.giftbox > div:before {
   position: absolute;
-  content: "";
+  content: '';
   top: 0;
 }
 .giftbox:after {
   position: absolute;
   color: #fff;
   width: 100%;
-  content: "Click Me!";
+  content: 'Ayo Dibuka!';
   left: 0;
   bottom: 0;
   font-size: 24px;
@@ -84,7 +85,7 @@ li span {
   left: 50%;
   width: 50px;
   transform: translateX(-50%);
-  background: #2C3E50;
+  background: #2c3e50;
 }
 .giftbox .cover > div {
   position: absolute;
@@ -94,14 +95,15 @@ li span {
   top: -50px;
   transform: translateX(-50%);
 }
-.giftbox .cover > div:before, .giftbox .cover > div:after {
+.giftbox .cover > div:before,
+.giftbox .cover > div:after {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  content: "";
-  box-shadow: inset 0 0 0 15px #2C3E50;
+  content: '';
+  box-shadow: inset 0 0 0 15px #2c3e50;
   border-radius: 30px;
   transform-origin: 50% 100%;
 }
@@ -122,7 +124,7 @@ li span {
   height: 100%;
   left: 50%;
   transform: translateX(-50%);
-  background: #2C3E50;
+  background: #2c3e50;
 }
 .giftbox .box:after {
   width: 100%;
@@ -141,11 +143,13 @@ li span {
 .step-2 .giftbox:after {
   opacity: 0;
 }
-.step-3 .giftbox, .step-4 .giftbox {
+.step-3 .giftbox,
+.step-4 .giftbox {
   opacity: 0;
   z-index: 1;
 }
-.step-3 .giftbox:after, .step-4 .giftbox:after {
+.step-3 .giftbox:after,
+.step-4 .giftbox:after {
   opacity: 0;
 }
 .step-2 .giftbox .cover {
@@ -156,27 +160,27 @@ li span {
 }
 @keyframes wobble {
   25% {
-      transform: rotate(4deg);
- }
+    transform: rotate(4deg);
+  }
   75% {
-      transform: rotate(-2deg);
- }
+    transform: rotate(-2deg);
+  }
 }
 @keyframes flyUp {
   75% {
-      opacity: 1;
- }
+    opacity: 1;
+  }
   100% {
-      transform: translateY(-1000px) rotate(20deg);
-      opacity: 0;
- }
+    transform: translateY(-1000px) rotate(20deg);
+    opacity: 0;
+  }
 }
 @keyframes flyDown {
   75% {
-      opacity: 1;
- }
+    opacity: 1;
+  }
   100% {
-      transform: translateY(100%);
-      opacity: 0;
- }
+    transform: translateY(100%);
+    opacity: 0;
+  }
 }
